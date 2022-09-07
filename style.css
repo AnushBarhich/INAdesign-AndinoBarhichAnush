@@ -238,7 +238,6 @@ body{
     margin-bottom: 3%;
 }
 
-
 /* Estilo del FOOTER*/
 .foot{
     position: relative;
@@ -267,18 +266,61 @@ body{
     margin-left: 10px;
 }
 
-
 /* DECO BLOG - Interiorismo */
+
 .deco-blog-interiorismo{
     display: grid;
-    grid-template-columns:repeat(1,1fr);
-    flex-direction: column;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: repeat(3,200px); */
+    justify-items: auto;
     align-items: center;
-    justify-content: center;
-    align-content: center;
-    gap: 20px;
+ 
 }
 
+/* DECO BLOG - PROYECTOS */
+.deco-blog__proyecto-1{
+    margin: 60px;
+    justify-self: center;
+    align-self: center;
+    transition: transform 0.5s;
+}
+
+.deco-blog__proyecto-1:hover{
+    transform:translateX(15px);
+}
+
+.deco-blog__proyecto-2{
+    margin: 45px;
+    align-items: center;
+    transition: transform 0.5s;
+    justify-self: center;
+    align-self: center;
+}
+
+.deco-blog__proyecto-2:hover{
+    transform:translateX(-15px);
+}
+
+.deco-blog__proyecto-3{
+    margin: 45px;
+    align-items: center;
+    transition: transform 0.5s;
+    justify-self: stretch;
+    align-self: center;
+    padding-left: 50px;
+}
+
+.deco-blog__proyecto-3:hover{
+    transform:translateY(-25px);
+}
+
+.deco-blog__imagen3{
+    width: 650px;
+    height: auto;
+}
+
+/* Video del Deco Blog */
 .deco-blog__video{
     display: grid;
     justify-content: center;
