@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ina Desing</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="header-banner">
+            <!-- Imagen Logo de la marca -->
+            <img class="header-banner__logo" src="./assets/images/logo-img-1.jpeg" width="150" height="150" alt="Logo del sitio"/>
+
+            <!-- Imagen Banner de la página -->
+            <img class="header-banner__img" src="./assets/images/banner-del-sitio.jpg" alt="Banner del sitio"/>
+
+
+        <!-- Menu de navegacion hacia los demás sitios de la pagina -->
+            <nav>
+                <ul class="header-banner__navbar">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./pages/projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./pages/deco-blog.html">Deco Blog</a>
+                    </li>
+                    <li>
+                        <a href="./pages/about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="./pages/contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>    
+
+    </header>
+
+
+    <main>
+        <!--Titulo Principal  -->
+        <h1 class="titulo-principal">Arte y Diseño</h1>
+        <div class="descripcion">
+            <p class="descripcion-sitio" > Somos un equipo especializado en el interiorismo con más de 20 años en el rubro y queremos compartir con vos nuestro amor por el Diseño.
+            </p>
+        </div>
+
+        <!-- Imagenes de los Trabajos de Interiorismo realizados -->
+        <div class="interiorismo">
+            <article class="proyecto-1">
+                <img class="proyecto-1__imagen" src="./assets/images/estilo-nordico.jpeg" alt="Casa renovada uno"/>
+               
+                <h2 class="proyecto-1__titulo-imagen">Diseño Nordico - Proyecto Manhattan</h2>
+                <p> Estilo limpio y luminoso en el Proyecto Manhattan. Renovacion de cocina en casa de fin de semana en el centro de este barrio Neoyorkino. Los propietarios buscaron crear un espacio calido para el ambiente. Se utilizó principalmente una paleta de colores neutras, haciendo foco en los colores terra, con objetos decorativos funcionales y de estilo campestre moderno. </p>
+                
+                <ul class="proyecto-1__lista">
+                    <li>Metros cuadrados refaccionados: 52 mts2</li>
+                    <li>Tiempo de remodelacion: 2 semanas</li>
+                    <li>Presupuesto: ilimitado</li>
+                </ul>
+            </article>
+
+            
+            <article class="proyecto-2">
+                <img class="proyecto-2__imagen" src="./assets/images/estilo-industrial-loft.jpg" alt="Casa renovada dos"/>
+
+                <h2 class="proyecto-2__titulo-imagen">Diseño Industrial - Proyecto Valencia</h2>
+                <p> Remodelacion del Chalet ubicado en Valencia, España. El proyecto tomó seis semanas en las cuales se implementaron tecnicas eco-friendly utilizando materiales con acabados naturales, hierros forjado, hormigon y madera rustica. Para este proyecto, se solicitó mantener las paredes originales de la construcción ya que poseía un valor sentimental importante para la dueña. Presentó un desafio con resultados perfectos al combinar lo nuevo y moderno con lo antiguo y rústico. </p>
+
+                <ul class="proyecto-2__lista">
+                    <li>Metros cuadrados refaccionados: 120 mts2</li>
+                    <li>Tiempo de remodelacion: 6 semanas</li>
+                    <li>Presupuesto: 35.000 euros</li>
+                </ul>
+            </article>
+
+            <article class="proyecto-3">
+                <img class="proyecto-3__imagen" src="./assets/images/renovacion-proyecto3.jpg" alt="Casa renovada tres"/>
+
+                <h2 class="proyecto-3__titulo-imagen">Renovacion Café Leonie - Copenhague </h2>
+                <p> Remodelacion de la Cafetería-Restó más conocida de la hermosa ciudad Dinamarquesa. El proyecto tomó cinco semanas y se realizó una renovación integral del salón principal. Estructuralmente se realizaron modificaciones con el fin de ampliar el ambiente y se incorporaron elementos que mantuviesen la estética propia de la reconocida cadena. </p>
+
+                <ul class="proyecto-3__lista">
+                    <li>Metros cuadrados refaccionados: 90 mts2</li>
+                    <li>Tiempo de remodelacion: 5 semanas</li>
+                    <li>Presupuesto: ilimitado</li>
+                </ul>
+            </article>
+
+
+            <article class="proyecto-4">
+                <img class="proyecto-4__imagen" src="./assets/images/renovacion-proyecto-4.jpg" alt="Casa renovada cuatro"/>
+
+                <h2 class="proyecto-4__titulo-imagen">Renovacion Altillo - Proyecto Málaga</h2>
+                <p> Remodelación de espacio en común. En este proyecto, los dueños quisieron aprovechar el sitio menos utilizado de la casa para crear un espacio de relajación y entretenimiento. En escasos metros cuadrados se logró sumar un sitio con mucha iluminación natural y vistas hacia la hermosa ciudad española </p>
+
+                <ul class="proyecto-4__lista">
+                    <li>Metros cuadrados refaccionados: 42 mts2</li>
+                    <li>Tiempo de remodelacion: 3 semanas</li>
+                    <li>Presupuesto: ilimitado</li>
+                </ul>
+            </article>
+
+        </div>
+
+        <!-- Enlace a la pagina de proyectos -->
+        <section class="interiorismo-enlace">
+            <div class="interiorismo-enlace__projects">
+                <a href="./pages/projects.html">Ver más proyectos</a>
+            </div>
+        </section>
+     
+
+        <!-- IFRAME - video sobre tips de decoracion por Jasmine Roth -->
+        <div class="video">
+            <br/>
+            <iframe class="video__reproductor" width="560" height="315" src="https://www.youtube.com/embed/iIwabgznM7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <p class="video__descripcion"> Tips sobre decoracion de interiores de la mano de Jasmine Roth. Nos comparte sus trucos
+                <br/> para mantener un equilibrio al momento de seleccionar los elementos decorativos mientras
+                <br/> hace un repaso por los momentos claves que le han enseñado a lo largo de los años.</p>
+        </div>
+        
+    </main>
+
+    <footer>
+        <section class="foot">
+            <div class="logo-foot">
+                <!-- Logo de la marca - devuelve a la pagina principal -->
+                <a href="./index.html">
+                    <img src="./assets/images/logo-img-1.jpeg" width="150" height="150" alt="Logo del sitio"/>
+                </a>
+            </div>
+
+            <!-- Enlaces hacia "contacto" y "sobre nosotros" -->
+            <div class="enlaces-foot">
+                <a href="./pages/contact-us.html">Contact Us</a>
+                <a href="./pages/about-us.html">About Us</a>
+            </div>
+
+        </section>
+
+    </footer>
+</body>
+</html>

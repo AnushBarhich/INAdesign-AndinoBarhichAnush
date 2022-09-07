@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ina Desing - Contact us</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+     <!-- Encabezado -->
+    <header>
+
+        <div class="header-banner">
+            <!-- Imagen Logo de la marca -->
+            <a href="../index.html">
+                <img class="header-banner__logo" src="../assets/images/logo-img-1.jpeg" width="150" height="150" alt="Logo del sitio"/>
+            </a>
+
+            <!-- Imagen Banner de la pagina About us -->
+            <img class="header-banner__img" src="../assets/images/banner-contact-us.jpg" widht="600" height="900" alt="banner de la pagina About Us"/>
+
+            <!-- Menu de navegacion hacia los demás sitios de la pagina -->
+            <nav>
+                <ul class="header-banner__navbar">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../pages/projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="../pages/deco-blog.html">Deco Blog</a>
+                    </li>
+                    <li>
+                        <a href="../pages/about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="../pages/contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h3 class="titulo-principal">¿Te gustaría que formemos parte de tu próxima renovación?</h3>
+        <section class="formulario">
+            <!-- Formulario de contacto de la pagina -->            
+            <div class="formulario-contacto">
+                <fieldset>
+                    <legend class="formulario-contacto__titulo" >Contactanos</legend>
+                    <br/>
+                    <!-- Datos personales/de contacto -->
+                    <form action="send.php" method="get" enctype="multipart/form-data">
+                        <input type="text" placeholder="Escriba su Nombre"/>
+                        <input type="text" placeholder="Escriba su Dirección"/>
+                        <input type="email" placeholder="Escriba su Email"/>
+                        <input type="tel" placeholder="Escriba su Telefono"/>
+                        <br/>
+                        <!-- Aclaración del tipo de renovacion -->
+                        <h4 class="formulario-contacto__titulo"> Indique el tipo de renovación</h4>
+                        <input type="radio" name="tipo-renovacion" id="renovacion-hogar"/>
+                        <label for="renovacion-hogar">Hogar</label>
+                        <input type="radio" name="tipo-renovacion" id="renovacion-oficina"/>
+                        <label for="renovacion-oficina">Oficina</label>
+                        <input type="radio" name="tipo-renovacion" id="renovacion-comercio"/>
+                        <label for="renovacion-comercio">Local comercial</label>
+                        <input type="radio" name="tipo-renovacion" id="paisajismo"/>
+                        <label for="paisajismo">Paisajismo</label>
+                        <input type="radio" name="tipo-renovacion" id="otros"/>
+                        <label for="otros">Otros</label>
+                        <br/>
+
+                        <textarea cols="30" rows="10" placeholder="Indique una breve reseña del proyecto."></textarea>
+                        <br/>                  
+                        
+                        <!-- Lista desplegable -->
+                        <h4 class="formulario-contacto__titulo">Indique cantidad de ambientes a renovar:</h4>
+                        <select>
+                            <option>Monoambiente</option>
+                            <option>Dos ambientes</option>
+                            <option>Tres ambientes</option>
+                            <option>Más ambientes</option>
+                        </select>           
+                        <br/>
+                        <textarea cols="30" rows="10" placeholder="Si seleccionó - Otros - Indique cantidad de ambientes y mt2 a renovar:"></textarea>
+                        <br/>
+
+                        <!-- Botones -->
+                        <button type="submit">Enviar Información</button>
+                        <button type="reset">Limpiar formulario</button>
+                    </form>
+                </fieldset>  
+            </div>  
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="foot">
+            <div class="logo-foot">
+                <!-- Logo de la marca - devuelve a la pagina principal -->
+                <a href="../index.html">
+                    <img src="../assets/images/logo-img-1.jpeg" width="150" height="150" alt="Logo del sitio"/>
+                </a>
+            </div>
+
+            <!-- Enlaces hacia "contacto" y "sobre nosotros" -->
+            <div class="enlaces-foot">
+                <a href="../pages/about-us.html">About Us</a>
+            </div>
+
+        </section>
+
+    </footer>
+    
+    
+       
+</body>
+</html>
