@@ -273,9 +273,10 @@ body{
     display: grid;
     grid-template-columns:repeat(1,1fr);
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
-    padding: 10px;
+    align-content: center;
+    gap: 20px;
 }
 
 .deco-blog__video{
