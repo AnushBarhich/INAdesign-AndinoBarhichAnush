@@ -266,7 +266,7 @@ body{
     margin-left: 10px;
 }
 
-/* DECO BLOG - Interiorismo */
+/* ESTILOS DECO BLOG - Interiorismo */
 
 .deco-blog-interiorismo{
     display: grid;
@@ -345,6 +345,31 @@ body{
     font-weight: bold;
     text-align: center;
 }
+
+/* ESTILO DE ABOUT US */
+/* ABOUT US interiorismo*/
+
+.about-us-interiorismo{
+    display: grid;
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+ 
+}
+
+/* ABOUT US - PROYECTOS */
+.about-us__proyecto-1{
+    margin: 40px;
+    padding-left: 100px;
+    justify-self: center;
+    align-self: center;
+    transition: transform 0.5s;
+}
+
+.about-us__proyecto-1:hover{
+    transform:translateY(-30px);
+}
+
 
 /* ESTILOS DE LA SECCION CONTACTO */
 /* FORMULARIO DE CONTACTO */
