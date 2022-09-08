@@ -349,16 +349,16 @@ body{
 /* ESTILO DE ABOUT US */
 /* ABOUT US interiorismo*/
 
-.about-us-interiorismo{
+/* .about-us-interiorismo{
     display: grid;
     grid-gap: 5px;
     justify-items: center;
     align-items: center;
  
-}
+} */
 
 /* ABOUT US - PROYECTOS */
-.about-us__proyecto-1{
+/* .about-us__proyecto-1{
     margin: 40px;
     padding-left: 100px;
     justify-self: center;
@@ -368,7 +368,7 @@ body{
 
 .about-us__proyecto-1:hover{
     transform:translateY(-30px);
-}
+} */
 
 
 /* ESTILOS DE LA SECCION CONTACTO */
