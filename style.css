@@ -33,24 +33,6 @@ ul{
     position: absolute;
 }
 
-/* Estilo del Menu de Navegacion */
-.header-banner__navbar{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    padding-bottom: 40px;
-}
-
-.header-banner__navbar a{
-    margin: 0 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    line-height: 1.4;
-    color: rgb(131, 127, 127);
-    font-weight: bold;
-}
-
-
 /* Tipografia con Declaracion Local */
 
 @font-face {
@@ -91,8 +73,8 @@ ul{
 /* PROYECTOS */
 /* Interiorismo */
 .interiorismo{
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
+    /* display: grid;
+    grid-template-columns:repeat(2,1fr); */
     max-width: 700px;
     margin: 0 auto;
     justify-content: center;
