@@ -72,12 +72,8 @@ ul{
 
 /* PROYECTOS */
 /* Interiorismo */
-.interiorismo{
-    /* display: grid;
-    grid-template-columns:repeat(2,1fr); */
-    max-width: 700px;
-    margin: 0 auto;
-    justify-content: center;
+.over-interiorismo{
+    overflow: hidden;
 }
 
 /* Estilos de las Etiquetas */
@@ -124,52 +120,36 @@ ul{
 
 /* Estilo de las Imagenes */
 .proyecto-1__imagen{
-max-width: 700px;
+    max-width: 700px;
     height: auto;
-    align-self: center;
+    justify-self: center;
 }
 
 .proyecto-2__imagen{
     width: 500px;
     height: auto;
+    justify-self: center;
 }
 
 .proyecto-3__imagen{
     width: 750px;
     height: auto;
     align-self: center;
+    justify-self: center;
 }
 
 .proyecto-4__imagen{
     width: 500px;
     height: auto;
+    justify-self: center;
 }
 
 /* Estilo de Tipografia de los titulos de las imagenes */
-.proyecto-1__titulo-imagen{
+.proyecto-1__titulo-imagen, .proyecto-2__titulo-imagen, .proyecto-3__titulo-imagen, .proyecto-4__titulo-imagen{
     font-family: 'fairBold';
     font-weight: bold;
     color:rgb(110, 115, 118);
 }
-
-.proyecto-2__titulo-imagen{
-    font-family: 'fairBold';
-    font-weight: bold;
-    color:rgb(110, 115, 118);
-}
-
-.proyecto-3__titulo-imagen{
-    font-family: 'fairBold';
-    font-weight: bold;
-    color:rgb(110, 115, 118);
-}
-
-.proyecto-4__titulo-imagen{
-    font-family: 'fairBold';
-    font-weight: bold;
-    color:rgb(110, 115, 118);
-}
-
 
 /* Estilo del enlace "ver mas proyectos" */
 .interiorismo-enlace{
@@ -328,31 +308,6 @@ body{
     text-align: center;
 }
 
-/* ESTILO DE ABOUT US */
-/* ABOUT US interiorismo*/
-
-/* .about-us-interiorismo{
-    display: grid;
-    grid-gap: 5px;
-    justify-items: center;
-    align-items: center;
- 
-} */
-
-/* ABOUT US - PROYECTOS */
-/* .about-us__proyecto-1{
-    margin: 40px;
-    padding-left: 100px;
-    justify-self: center;
-    align-self: center;
-    transition: transform 0.5s;
-}
-
-.about-us__proyecto-1:hover{
-    transform:translateY(-30px);
-} */
-
-
 /* ESTILOS DE LA SECCION CONTACTO */
 /* FORMULARIO DE CONTACTO */
 
@@ -370,7 +325,6 @@ body{
 .formulario-contacto{
     justify-content:center;
     width: 750px;
-    /* padding: 20px 10px; */
     background-color: rgba(252, 248, 240, 0.5);
     border-radius: 4%;
     text-align: center;
@@ -381,6 +335,30 @@ body{
     font-family: 'fairBold';
     font-weight: bold;
     color:rgb(110, 115, 118);
+}
+
+.recuadros-formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:2px;
+}
+
+.recuadros-formulario__opcion:hover{
+    border: 2px solid rgb(240, 156, 60);
+}
+
+.formulario-renovacion__opcion{
+    transition: color 0.3s;
+}
+
+.formulario-renovacion__opcion:hover{
+    color:rgb(58, 38, 34);
+    font-weight: bolder;
+}
+
+.formulario-botonera:hover{
+    border: 2px solid rgb(240, 156, 60);
 }
 
 

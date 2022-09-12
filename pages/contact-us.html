@@ -56,39 +56,59 @@
     </header>
 
     <main>
-        <h3 class="titulo-principal">¿Te gustaría que formemos parte de tu próxima renovación?</h3>
+        <h3 class="titulo-principal container">¿Te gustaría que formemos parte de tu próxima renovación?</h3>
         <section class="formulario">
             <!-- Formulario de contacto de la pagina -->            
-            <div class="formulario-contacto">
+            <div class="formulario-contacto container">
                 <fieldset>
-                    <legend class="formulario-contacto__titulo" >Contactanos</legend>
+                    <legend class="formulario-contacto__titulo mt-3" >Contactanos</legend>
                     <br/>
                     <!-- Datos personales/de contacto -->
+        
                     <form action="send.php" method="get" enctype="multipart/form-data">
-                        <input type="text" placeholder="Escriba su Nombre"/>
-                        <input type="text" placeholder="Escriba su Dirección"/>
-                        <input type="email" placeholder="Escriba su Email"/>
-                        <input type="tel" placeholder="Escriba su Telefono"/>
-                        <br/>
+                        <div class="recuadros-formulario">
+                            <div class="recuadros-formulario__opcion">
+                                <input type="text" placeholder="Escriba su Nombre"/>
+                            </div>
+                            <div class="recuadros-formulario__opcion">
+                                <input type="email" placeholder="Escriba su Email"/>
+                            </div>
+                            <div class="recuadros-formulario__opcion">
+                                <input type="tel" placeholder="Escriba su Telefono"/>
+                            </div>                         
+                        </div>
+                        
                         <!-- Aclaración del tipo de renovacion -->
-                        <h4 class="formulario-contacto__titulo"> Indique el tipo de renovación</h4>
-                        <input type="radio" name="tipo-renovacion" id="renovacion-hogar"/>
-                        <label for="renovacion-hogar">Hogar</label>
-                        <input type="radio" name="tipo-renovacion" id="renovacion-oficina"/>
-                        <label for="renovacion-oficina">Oficina</label>
-                        <input type="radio" name="tipo-renovacion" id="renovacion-comercio"/>
-                        <label for="renovacion-comercio">Local comercial</label>
-                        <input type="radio" name="tipo-renovacion" id="paisajismo"/>
-                        <label for="paisajismo">Paisajismo</label>
-                        <input type="radio" name="tipo-renovacion" id="otros"/>
-                        <label for="otros">Otros</label>
-                        <br/>
+                        <h4 class="formulario-contacto__titulo mt-4"> Indique el tipo de renovación</h4>
+                        <div class="formulario-renovacion">
+                            <div class="formulario-renovacion__opcion">
+                                <input type="radio" name="tipo-renovacion" id="renovacion-hogar"/>
+                                <label for="renovacion-hogar">Hogar</label>
+                            </div>
+                            <div class="formulario-renovacion__opcion">
+                                <input type="radio" name="tipo-renovacion" id="renovacion-oficina"/>
+                                <label for="renovacion-oficina">Oficina</label>
+                            </div>
+                            <div class="formulario-renovacion__opcion">
+                                <input type="radio" name="tipo-renovacion" id="renovacion-comercio"/>
+                                <label for="renovacion-comercio">Local comercial</label>
+                            </div>
+                            <div class="formulario-renovacion__opcion">
+                                <input type="radio" name="tipo-renovacion" id="paisajismo"/>
+                                <label for="paisajismo">Paisajismo</label>
+                            </div>
+                            <div class="formulario-renovacion__opcion">
+                                <input type="radio" name="tipo-renovacion" id="otros"/>
+                                <label for="otros">Otros</label>
+                            </div>                            
+                        </div>
 
-                        <textarea cols="30" rows="10" placeholder="Indique una breve reseña del proyecto."></textarea>
-                        <br/>                  
+                        <div>
+                            <textarea cols="40" rows="5" placeholder="  Indique una breve reseña del proyecto."></textarea>
+                        </div>
                         
                         <!-- Lista desplegable -->
-                        <h4 class="formulario-contacto__titulo">Indique cantidad de ambientes a renovar:</h4>
+                        <h4 class="formulario-contacto__titulo mt-3">Indique cantidad de ambientes a renovar:</h4>
                         <select>
                             <option>Monoambiente</option>
                             <option>Dos ambientes</option>
@@ -96,12 +116,15 @@
                             <option>Más ambientes</option>
                         </select>           
                         <br/>
-                        <textarea cols="30" rows="10" placeholder="Si seleccionó - Otros - Indique cantidad de ambientes y mt2 a renovar:"></textarea>
+                        <textarea cols="40" rows="8" placeholder="  Indique ambientes y mt2 a renovar"></textarea>
                         <br/>
 
                         <!-- Botones -->
-                        <button type="submit">Enviar Información</button>
-                        <button type="reset">Limpiar formulario</button>
+                        <div>
+                            <button class="formulario-botonera" type="submit">Enviar Información</button>
+                            <button class="formulario-botonera" type="reset">Limpiar formulario</button>
+                        </div>
+                        
                     </form>
                 </fieldset>  
             </div>  
