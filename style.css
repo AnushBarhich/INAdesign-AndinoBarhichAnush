@@ -72,9 +72,6 @@ ul{
 
 /* PROYECTOS */
 /* Interiorismo */
-.over-interiorismo{
-    overflow: hidden;
-}
 
 /* Estilos de las Etiquetas */
 .proyecto-1{
@@ -120,26 +117,26 @@ ul{
 
 /* Estilo de las Imagenes */
 .proyecto-1__imagen{
-    max-width: 700px;
+    max-width: 450px;
     height: auto;
     justify-self: center;
 }
 
 .proyecto-2__imagen{
-    width: 500px;
+    width: 400px;
     height: auto;
     justify-self: center;
 }
 
 .proyecto-3__imagen{
-    width: 750px;
+    width: 460px;
     height: auto;
     align-self: center;
     justify-self: center;
 }
 
 .proyecto-4__imagen{
-    width: 500px;
+    width: 400px;
     height: auto;
     justify-self: center;
 }
@@ -234,7 +231,6 @@ body{
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(2,1fr);
-    /* grid-template-rows: repeat(3,200px); */
     justify-items: auto;
     align-items: center;
  
