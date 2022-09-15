@@ -1,0 +1,50 @@
+/* ESTILOS DE LA SECCION CONTACTO */
+/* FORMULARIO DE CONTACTO */
+
+.formulario{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    &-contacto{
+        justify-content:center;
+        width: 750px;
+        background-color: rgba(252, 248, 240, 0.5);
+        border-radius: 4%;
+        text-align: center;
+        line-height: 40px;
+
+        &__titulo{
+            font-family: 'fairBold';
+            font-weight: bold;
+            color:rgb(110, 115, 118);
+        }
+
+        &-recuadros{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:2px;
+
+            &__opcion{
+                &:hover{
+                    border: 2px solid rgb(240, 156, 60);
+                }
+            }
+        }
+    }
+}
+
+
+.formulario-renovacion__opcion{
+    transition: color 0.3s;
+
+    &:hover{
+        color:rgb(58, 38, 34);
+        font-weight: bolder;
+    }
+}
+
+.formulario-botonera:hover{
+    border: 2px solid rgb(240, 156, 60);
+}

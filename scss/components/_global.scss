@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+/* Tipografia con Declaracion Local */
+
+@font-face {
+    font-family: 'fair';
+    src: url(/assets/ttf/PlayfairDisplay-Regular.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fair';
+    src: url(/assets/ttf/PlayfairDisplay-SemiBold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'fairBold';
+    src: url(/assets/ttf/PlayfairDisplay-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+/* TIPOGRAFIAS DEL TITULO PRINCIPAL*/
+/* Titulo principal */
+.titulo-principal{
+    font-family: 'fair';
+    font-weight: bold;
+    color: rgb(80, 84, 87);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+/*Descripcion del Sitio*/
+.descripcion-sitio{
+    text-align: center;
+}
+
+/* PROYECTOS */
+
+/* Estilos de las Etiquetas */
+.proyecto-1{
+    margin: 60px;
+    justify-content: center;
+    transition: transform 0.5s;
+
+    &:hover{
+        transform:translateY(-15px);
+    }
+}
+
+.proyecto-2{
+    margin: 45px;
+    align-items: center;
+    transition: transform 0.5s;
+
+    &:hover{
+        transform:translateY(-15px);
+    }
+}
+
+
+.proyecto-3{
+    margin: 45px;
+    align-items: center;
+    transition: transform 0.5s;
+    
+    &:hover{
+        transform:translateY(-15px);
+    }
+}
+
+
+.proyecto-4{
+    margin: 45px;
+    align-self: center;
+    transition: transform 0.5s;
+    
+    &:hover{
+        transform:translateY(-15px);
+    }
+}
+
+
+/* Estilo de las Imagenes */
+.proyecto-1__imagen{
+    max-width: 450px;
+    height: auto;
+    justify-self: center;
+}
+
+.proyecto-2__imagen{
+    width: 400px;
+    height: auto;
+    justify-self: center;
+}
+
+.proyecto-3__imagen{
+    width: 460px;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.proyecto-4__imagen{
+    width: 400px;
+    height: auto;
+    justify-self: center;
+}
+
+/* Estilo de Tipografia de los titulos de las imagenes */
+.proyecto-1__titulo-imagen, .proyecto-2__titulo-imagen, .proyecto-3__titulo-imagen, .proyecto-4__titulo-imagen{
+    font-family: 'fairBold';
+    font-weight: bold;
+    color:rgb(110, 115, 118);
+}
+
+/* ESTILO GENERAL DEL BODY */
+body{
+    /* color de fondo */
+    background-color: rgba(234, 230, 223,10%);
+    /* Tipografia */
+    font-family: "fair";
+    font-style: normal;
+}

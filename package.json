@@ -1,0 +1,22 @@
+{
+  "name": "ina-desing",
+  "version": "1.0.0",
+  "description": "Proyecto Ina Desing",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnushBarhich/INAdesign-AndinoBarhichAnush.git"
+  },
+  "author": "Anush Andino Barhich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnushBarhich/INAdesign-AndinoBarhichAnush/issues"
+  },
+  "homepage": "https://github.com/AnushBarhich/INAdesign-AndinoBarhichAnush#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
