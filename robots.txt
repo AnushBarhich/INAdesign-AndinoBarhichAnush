@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anushbarhich.github.io/INAdesign-AndinoBarhichAnush/sitemap.xml
