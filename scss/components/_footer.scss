@@ -7,9 +7,9 @@
         right: 0px;
     }
     &__enlaces{
+        @include centrado(center);
         display: flex;
         align-items:center;
-        justify-content: center;
         padding-bottom: 40px;
 
         a{
@@ -22,4 +22,31 @@
             margin-left: 10px;
         }
     }
+}
+
+.footer-rrss{
+    @include centrado(center);
+    display: flex;
+    margin-bottom: 20px;
+
+    //mapa
+    $iconSocialMedia:(
+        instagram:#c92d8f,
+        facebook:#2279e4,
+    );
+
+    //bucle
+    @each $nameSocialMedia, $colorIcon in $iconSocialMedia{
+        .rs-#{$nameSocialMedia}{
+            color:#6e7376;
+            font-size: 20px;
+            transition: 0.3S;
+
+            &:hover{
+                color:$colorIcon;
+            }
+        }
+    }
+
+
 }

@@ -2,14 +2,14 @@
 /* FORMULARIO DE CONTACTO */
 
 .formulario{
+    @include centrado(center);
     display: grid;
-    justify-content: center;
     padding-bottom: 20px;
 
     &-contacto{
-        justify-content:center;
+        @include centrado(center);
         width: 750px;
-        background-color: rgba(252, 248, 240, 0.5);
+        background-color: rgba(255, 255, 255, 0.822);
         border-radius: 4%;
         text-align: center;
         line-height: 40px;
@@ -21,9 +21,9 @@
         }
 
         &-recuadros{
+            @include centrado(center);
             display: flex;
             flex-direction: row;
-            justify-content: center;
             gap:2px;
 
             &__opcion{

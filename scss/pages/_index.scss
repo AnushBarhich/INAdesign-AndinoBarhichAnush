@@ -3,9 +3,9 @@
     position: relative; 
     
     &__projects{
+        @include centrado(center);
         display: flex;
         align-items:center;
-        justify-content: center;
         padding-bottom: 5px;
     
         a{

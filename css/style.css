@@ -54,15 +54,11 @@ ul {
     transform: translateY(-15px); }
 
 .proyecto-2 {
-  margin: 45px;
-  align-items: center;
   transition: transform 0.5s; }
   .proyecto-2:hover {
     transform: translateY(-15px); }
 
 .proyecto-3 {
-  margin: 45px;
-  align-items: center;
   transition: transform 0.5s; }
   .proyecto-3:hover {
     transform: translateY(-15px); }
@@ -76,25 +72,16 @@ ul {
 
 /* Estilo de las Imagenes */
 .proyecto-1__imagen {
-  max-width: 450px;
-  height: auto;
-  justify-self: center; }
+  max-width: 450px; }
 
 .proyecto-2__imagen {
-  width: 400px;
-  height: auto;
-  justify-self: center; }
+  width: 400px; }
 
 .proyecto-3__imagen {
-  width: 460px;
-  height: auto;
-  align-self: center;
-  justify-self: center; }
+  width: 460px; }
 
 .proyecto-4__imagen {
-  width: 400px;
-  height: auto;
-  justify-self: center; }
+  width: 400px; }
 
 /* Estilo de Tipografia de los titulos de las imagenes */
 .proyecto-1__titulo-imagen, .proyecto-2__titulo-imagen, .proyecto-3__titulo-imagen, .proyecto-4__titulo-imagen {
@@ -105,10 +92,18 @@ ul {
 /* ESTILO GENERAL DEL BODY */
 body {
   /* color de fondo */
-  background-color: #eae6df;
+  background-color: #faf7f1e0;
   /* Tipografia */
   font-family: "fair";
   font-style: normal; }
+
+.imagePosition, .proyecto-1__imagen, .proyecto-2__imagen, .proyecto-3__imagen, .proyecto-4__imagen {
+  height: auto;
+  justify-self: center; }
+
+.projectsImageProp, .proyecto-2, .proyecto-3 {
+  margin: 45px;
+  align-items: center; }
 
 /* Estilo del Banner de Inicio */
 .header-banner {
@@ -128,9 +123,9 @@ body {
     bottom: 90px;
     right: 0px; }
   .foot__enlaces {
+    justify-content: center;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding-bottom: 40px; }
     .foot__enlaces a {
       font-family: Arial, Helvetica, sans-serif;
@@ -140,6 +135,23 @@ body {
       font-weight: bold;
       align-self: center;
       margin-left: 10px; }
+
+.footer-rrss {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px; }
+  .footer-rrss .rs-instagram {
+    color: #6e7376;
+    font-size: 20px;
+    transition: 0.3S; }
+    .footer-rrss .rs-instagram:hover {
+      color: #c92d8f; }
+  .footer-rrss .rs-facebook {
+    color: #6e7376;
+    font-size: 20px;
+    transition: 0.3S; }
+    .footer-rrss .rs-facebook:hover {
+      color: #2279e4; }
 
 /* MEDIAS QUERIES */
 /* MEDIA QUERY en formato IPHONE 12 PRO */
@@ -229,9 +241,9 @@ body {
 .interiorismo-enlace {
   position: relative; }
   .interiorismo-enlace__projects {
+    justify-content: center;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding-bottom: 5px; }
     .interiorismo-enlace__projects a {
       font-family: Arial, Helvetica, sans-serif;
@@ -319,13 +331,13 @@ body {
 /* ESTILOS DE LA SECCION CONTACTO */
 /* FORMULARIO DE CONTACTO */
 .formulario {
-  display: grid;
   justify-content: center;
+  display: grid;
   padding-bottom: 20px; }
   .formulario-contacto {
     justify-content: center;
     width: 750px;
-    background-color: rgba(252, 248, 240, 0.5);
+    background-color: rgba(255, 255, 255, 0.822);
     border-radius: 4%;
     text-align: center;
     line-height: 40px; }
@@ -334,9 +346,9 @@ body {
       font-weight: bold;
       color: #6e7376; }
     .formulario-contacto-recuadros {
+      justify-content: center;
       display: flex;
       flex-direction: row;
-      justify-content: center;
       gap: 2px; }
       .formulario-contacto-recuadros__opcion:hover {
         border: 2px solid #f09c3c; }
