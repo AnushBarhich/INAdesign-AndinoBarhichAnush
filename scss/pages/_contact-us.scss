@@ -20,7 +20,7 @@
             color:rgb(110, 115, 118);
         }
 
-        &-recuadros{
+        &__recuadros{
             @include centrado(center);
             display: flex;
             flex-direction: row;
@@ -32,19 +32,22 @@
                 }
             }
         }
+
+        &__renovacion{
+            &__opcion{
+                transition: color 0.3s;
+
+                &:hover{
+                    color:rgb(58, 38, 34);
+                    font-weight: bolder;
+                }
+            }
+        }
+
+        &__botonera{
+            &:hover{
+                border: 2px solid rgb(240, 156, 60);
+            }
+        }
     }
-}
-
-
-.formulario-renovacion__opcion{
-    transition: color 0.3s;
-
-    &:hover{
-        color:rgb(58, 38, 34);
-        font-weight: bolder;
-    }
-}
-
-.formulario-botonera:hover{
-    border: 2px solid rgb(240, 156, 60);
 }

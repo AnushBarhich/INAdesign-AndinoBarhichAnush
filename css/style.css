@@ -101,9 +101,20 @@ body {
   height: auto;
   justify-self: center; }
 
-.projectsImageProp, .proyecto-2, .proyecto-3 {
+.projectsImageProp, .proyecto-2, .proyecto-3, .proyectosProjects__proyecto-3 {
   margin: 45px;
   align-items: center; }
+
+.proyectsProjectsImage {
+  height: 500px;
+  justify-self: center;
+  align-items: center;
+  padding: 5px; }
+
+.decoBlogTitle, .deco-blog-interiorismo__proyecto-1__titulo-imagen, .deco-blog-interiorismo__proyecto-2__titulo-imagen, .deco-blog-interiorismo__proyecto-3__titulo-imagen {
+  font-family: 'fairBold';
+  font-weight: bold;
+  color: #6e7376; }
 
 /* Estilo del Banner de Inicio */
 .header-banner {
@@ -267,43 +278,32 @@ body {
 
 /* ESTILOS DECO BLOG - Interiorismo */
 .deco-blog-interiorismo {
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(2, 1fr);
   justify-items: auto;
   align-items: center; }
-
-/* DECO BLOG - PROYECTOS */
-.deco-blog__proyecto-1 {
-  margin: 60px;
-  justify-self: center;
-  align-self: center;
-  transition: transform 0.5s; }
-  .deco-blog__proyecto-1:hover {
-    transform: translateX(15px); }
-
-.deco-blog__proyecto-2 {
-  margin: 45px;
-  align-items: center;
-  transition: transform 0.5s;
-  justify-self: center;
-  align-self: center; }
-  .deco-blog__proyecto-2:hover {
-    transform: translateX(-15px); }
-
-.deco-blog__proyecto-3 {
-  margin: 45px;
-  align-items: center;
-  transition: transform 0.5s;
-  justify-self: stretch;
-  align-self: center;
-  padding-left: 50px; }
-  .deco-blog__proyecto-3:hover {
-    transform: translateY(-25px); }
-
-.deco-blog__imagen3 {
-  width: 650px;
-  height: auto; }
+  .deco-blog-interiorismo__proyecto-1 {
+    margin: 60px;
+    justify-self: center;
+    align-self: center;
+    transition: transform 0.5s; }
+    .deco-blog-interiorismo__proyecto-1:hover {
+      transform: translateX(15px); }
+  .deco-blog-interiorismo__proyecto-2 {
+    margin: 40px;
+    align-items: center;
+    transition: transform 0.5s;
+    justify-self: center;
+    align-self: center; }
+    .deco-blog-interiorismo__proyecto-2:hover {
+      transform: translateX(-15px); }
+  .deco-blog-interiorismo__proyecto-3 {
+    margin: 45px;
+    align-items: center;
+    transition: transform 0.5s;
+    justify-self: stretch;
+    align-self: center;
+    padding-left: 50px; }
+    .deco-blog-interiorismo__proyecto-3:hover {
+      transform: translateX(-25px); }
 
 /* Video del Deco Blog */
 .deco-blog__video {
@@ -345,19 +345,62 @@ body {
       font-family: 'fairBold';
       font-weight: bold;
       color: #6e7376; }
-    .formulario-contacto-recuadros {
+    .formulario-contacto__recuadros {
       justify-content: center;
       display: flex;
       flex-direction: row;
       gap: 2px; }
-      .formulario-contacto-recuadros__opcion:hover {
+      .formulario-contacto__recuadros__opcion:hover {
         border: 2px solid #f09c3c; }
+    .formulario-contacto__renovacion__opcion {
+      transition: color 0.3s; }
+      .formulario-contacto__renovacion__opcion:hover {
+        color: #3a2622;
+        font-weight: bolder; }
+    .formulario-contacto__botonera:hover {
+      border: 2px solid #f09c3c; }
 
-.formulario-renovacion__opcion {
-  transition: color 0.3s; }
-  .formulario-renovacion__opcion:hover {
-    color: #3a2622;
-    font-weight: bolder; }
-
-.formulario-botonera:hover {
-  border: 2px solid #f09c3c; }
+/* Estilos de las Etiquetas */
+.proyectosProjects {
+  justify-items: auto;
+  align-items: center; }
+  .proyectosProjects__proyecto-1 {
+    margin: 60px;
+    transition: transform 0.5s;
+    justify-self: center;
+    align-self: center; }
+    .proyectosProjects__proyecto-1:hover {
+      transform: translateX(-15px); }
+    .proyectosProjects__proyecto-1__titulo-imagen {
+      font-family: 'fairBold';
+      font-weight: bold;
+      color: #6e7376; }
+  .proyectosProjects__proyecto-2 {
+    margin: 45px;
+    justify-self: center;
+    align-self: center;
+    transition: transform 0.5s; }
+    .proyectosProjects__proyecto-2:hover {
+      transform: translateX(15px); }
+    .proyectosProjects__proyecto-2__titulo-imagen {
+      font-family: 'fairBold';
+      font-weight: bold;
+      color: #6e7376; }
+  .proyectosProjects__proyecto-3 {
+    transition: transform 0.5s; }
+    .proyectosProjects__proyecto-3:hover {
+      transform: translateX(-15px); }
+    .proyectosProjects__proyecto-3__titulo-imagen {
+      font-family: 'fairBold';
+      font-weight: bold;
+      color: #6e7376; }
+  .proyectosProjects__proyecto-4 {
+    margin: 45px;
+    align-self: center;
+    transition: transform 0.5s; }
+    .proyectosProjects__proyecto-4:hover {
+      transform: translateX(15px); }
+    .proyectosProjects__proyecto-4__titulo-imagen {
+      font-family: 'fairBold';
+      font-weight: bold;
+      color: #6e7376; }

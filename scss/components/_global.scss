@@ -143,6 +143,19 @@ body{
     align-items: center;
 }
 
+.proyectsProjectsImage{
+    height: 500px;
+    justify-self: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.decoBlogTitle{
+    font-family: 'fairBold';
+    font-weight: bold;
+    color:#6e7376;
+}
+
 //mixin
 @mixin centrado ($positiontype){
     justify-content: $positiontype;    

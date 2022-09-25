@@ -1,0 +1,71 @@
+
+/* Estilos de las Etiquetas */
+.proyectosProjects{
+    justify-items: auto;
+    align-items: center;
+    
+    &__proyecto-1{
+        margin: 60px;
+        transition: transform 0.5s;
+        justify-self: center;
+        align-self: center;
+
+        &:hover{
+            transform:translateX(-15px);
+        }
+
+        &__titulo-imagen{
+            font-family: 'fairBold';
+            font-weight: bold;
+            color:#6e7376;
+        }
+    }
+
+    &__proyecto-2{
+        margin: 45px;
+        justify-self: center;
+        align-self: center;
+        transition: transform 0.5s;
+
+        &:hover{
+            transform:translateX(15px);
+        }
+
+        &__titulo-imagen{
+            font-family: 'fairBold';
+            font-weight: bold;
+            color:#6e7376;
+        }
+    }
+
+    &__proyecto-3{
+        @extend .projectsImageProp;
+        transition: transform 0.5s;
+        
+        &:hover{
+            transform:translateX(-15px);
+        }
+
+        &__titulo-imagen{
+            font-family: 'fairBold';
+            font-weight: bold;
+            color:#6e7376;
+        }
+    }
+
+    &__proyecto-4{
+        margin: 45px;
+        align-self: center;
+        transition: transform 0.5s;
+        
+        &:hover{
+            transform:translateX(15px);
+        }
+
+        &__titulo-imagen{
+            font-family: 'fairBold';
+            font-weight: bold;
+            color:#6e7376;
+        }
+    }
+}
